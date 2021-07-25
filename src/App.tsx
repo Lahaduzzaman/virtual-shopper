@@ -37,7 +37,7 @@ const App = () => {
 
   const handleAddToCart = (clickedItem: CartItemType) => {
     setCartItems((prev) => {
-      // 1. Is the item already added in the cart?
+      
       const isItemInCart = prev.find((item) => item.id === clickedItem.id);
 
       if (isItemInCart) {
@@ -47,7 +47,7 @@ const App = () => {
             : item
         );
       }
-      // First time the item is added
+     
       return [...prev, { ...clickedItem, amount: 1 }];
     });
   };
