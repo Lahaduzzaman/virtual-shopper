@@ -11,3 +11,6 @@ Overview:
 * User can add their product details and they can buy a product.
 * User also can remove their products.
 * User can see the products list and costs details.
+
+
+Technology: TypeScript, React, React-Router, Material-UI, React-Query, Styled-Components, Netlify.
